@@ -1,0 +1,26 @@
+<footer class="site-foot">
+  <div class="foot-inner">
+    <div>
+      <div class="foot-logos">
+        <img class="uow" src="{{ '/assets/images/uow-logo.png' | relative_url }}" alt="University of Wolverhampton">
+        <span class="divider" aria-hidden="true"></span>
+        <img class="arch" src="{{ '/assets/images/wlv-architecture-logo.png' | relative_url }}" alt="WLV Architecture">
+        <img class="arch" src="{{ '/assets/images/wlvarch-ai-logo.png' | relative_url }}" alt="WLV Architecture ARCHI.AI Club logo">
+      </div>
+      <p class="foot-copy">
+        WLVArch.AI — the AI Club for WLVArchitecture students<br>
+        School of Architecture, Computing and Engineering<br>
+        University of Wolverhampton · Wolverhampton · WV1 1LY<br>
+        Content is written by club members and does not represent the views of the University.
+      </p>
+    </div>
+    <div class="foot-links">
+      <a href="https://www.wlvarchitecture.com">wlvarchitecture.com</a>
+      <a href="{{ '/contribute/' | relative_url }}">Contribute</a>
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      <a href="https://www.wlv.ac.uk/privacy-policy/">Privacy</a>
+      {% if site.club.contact_email != "" %}<a href="mailto:{{ site.club.contact_email }}">Contact</a>{% endif %}
+    </div>
+  </div>
+  <div class="foot-bar"></div>
+</footer>

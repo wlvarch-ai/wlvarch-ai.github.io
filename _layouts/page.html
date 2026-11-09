@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<header class="page-hero">
+  <div class="inner">
+    <p class="eyebrow">{{ page.eyebrow | default: "WLVArch.AI" }}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.lead %}<p class="lead">{{ page.lead }}</p>{% endif %}
+  </div>
+  {% include w-motif.html %}
+</header>
+<section>
+  <div class="prose">
+    {{ content }}
+  </div>
+</section>

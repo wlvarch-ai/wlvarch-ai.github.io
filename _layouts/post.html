@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{% assign kind = "Session" %}
+{% if page.collection == "workflows" %}{% assign kind = "Workflow" %}{% elsif page.collection == "showcase" %}{% assign kind = "Showcase" %}{% endif %}
+<header class="page-hero">
+  <div class="inner">
+    <p class="eyebrow"><span>{{ kind }}{% if page.date %} · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>{% endif %}{% if page.author %} · {{ page.author }}{% endif %}</span></p>
+    <h1>{{ page.title }}</h1>
+    {% if page.summary %}<p class="lead">{{ page.summary }}</p>{% endif %}
+    {% if page.tags.size > 0 %}<ul class="tags">{% for t in page.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
+  </div>
+  {% include w-motif.html %}
+</header>
+<section>
+  <article class="prose">
+    {{ content }}
+
+    {% if page.open_question %}
+    <aside class="open-question">
+      <p class="label">Open question for next session</p>
+      <p>{{ page.open_question }}</p>
+    </aside>
+    {% endif %}
+
+    {% if page.ai_disclosure %}
+    <p class="disclosure"><strong>AI use:</strong> {{ page.ai_disclosure }}</p>
+    {% endif %}
+  </article>
+</section>

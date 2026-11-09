@@ -1,0 +1,93 @@
+---
+layout: default
+title: Home
+---
+<!-- HERO -->
+<section class="hero">
+  <div class="inner">
+    <div>
+      <p class="eyebrow">WLVArchitecture — AI Club</p>
+      <h1>Discuss.<br>Test.<br><span>Share.</span></h1>
+      <p class="hero-sub">A club for WLVArchitecture students to build a deeper understanding of artificial intelligence: the tools available, and how to use them responsibly and effectively in the architecture profession.</p>
+      <a class="btn" href="{{ '/sessions/' | relative_url }}">Latest sessions</a>
+      <a class="btn btn-ghost" href="{{ '/contribute/' | relative_url }}">Contribute</a>
+    </div>
+    <img class="hero-logo" src="{{ '/assets/images/wlvarch-ai-logo.png' | relative_url }}" alt="WLV Architecture ARCHI.AI Club logo">
+  </div>
+  {% include w-motif.html %}
+</section>
+
+<!-- FACTS BAR -->
+<div class="facts-bar">
+  <div class="facts">
+    <div class="fact"><div class="fact-num">{{ site.club.meeting_day }}</div><div class="fact-label">When we meet</div></div>
+    <div class="fact"><div class="fact-num">{{ site.club.meeting_time }}</div><div class="fact-label">Start time</div></div>
+    <div class="fact"><div class="fact-num">{{ site.club.duration }}</div><div class="fact-label">Session length</div></div>
+    <div class="fact"><div class="fact-num">{{ site.club.meeting_room }}</div><div class="fact-label">{{ site.club.meeting_room_name }}</div></div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="inner">
+    <p class="eyebrow">About the Club</p>
+    <h2>Not a Lecture.<br>A Conversation.</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <h3>What</h3>
+        <p>The club helps students develop a further understanding of artificial intelligence: the tools available, and how we can use them responsibly and effectively in the architecture profession.</p>
+        <h3>Why</h3>
+        <p>AI is now everywhere and affects all of us. We want a place where we can explore and share workflows, tools and the best methods of using AI in an ethical way.</p>
+        <h3>Who</h3>
+        <p>Open to anyone in the WLVArchitecture community, at any level of experience.</p>
+      </div>
+      <div class="panel">
+        <h3>How Sessions Work</h3>
+        <div class="panel-item"><div class="diamond"></div><p><strong>Discuss</strong> — bring a question, a view or something you have read</p></div>
+        <div class="panel-item"><div class="diamond"></div><p><strong>Test</strong> — try tools and workflows on real project work, together</p></div>
+        <div class="panel-item"><div class="diamond"></div><p><strong>Share</strong> — what worked and what didn't, then write it up on this site</p></div>
+        <p class="panel-note">This is not a lecture, so come prepared to discuss, test and share.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LATEST SESSIONS -->
+<section class="bg-navy">
+  <div class="inner">
+    <p class="eyebrow">Latest Sessions</p>
+    <h2>What We've<br><span>Been Doing</span></h2>
+    <p class="lead">A short write-up after every meeting: what we discussed, what we tested, and the question we carried forward.</p>
+    {% include post-list.html items=site.posts max_items=3 empty_text="The first session write-up is on its way." %}
+    <a class="more" href="{{ '/sessions/' | relative_url }}">All sessions →</a>
+  </div>
+</section>
+
+<!-- EXPLORE -->
+<section class="bg-grey">
+  <div class="inner">
+    <p class="eyebrow">Explore</p>
+    <h2>Workflows, Tools<br>and Ideas</h2>
+    <p class="lead">Everything here is written by club members, and every method states its limits as well as its strengths.</p>
+    <div class="card-grid">
+      <a class="card" href="{{ '/sessions/' | relative_url }}"><div class="card-bar"></div><h3>Sessions</h3><p>A short record of every meeting, newest first.</p></a>
+      <a class="card" href="{{ '/workflows/' | relative_url }}"><div class="card-bar"></div><h3>Workflows</h3><p>Tested, step-by-step methods, with where they break.</p></a>
+      <a class="card" href="{{ '/showcase/' | relative_url }}"><div class="card-bar"></div><h3>Showcase</h3><p>Student work, shown with the process behind it.</p></a>
+      <a class="card" href="{{ '/tools/' | relative_url }}"><div class="card-bar"></div><h3>Tools</h3><p>A reviewed and dated register of the tools we have used.</p></a>
+      <a class="card" href="{{ '/ethics/' | relative_url }}"><div class="card-bar"></div><h3>Ethics &amp; Practice</h3><p>Uni regulations, PSRB info and information on integrity, authorship and IP.</p></a>
+      <a class="card" href="{{ '/reading/' | relative_url }}"><div class="card-bar"></div><h3>Research &amp; Reading</h3><p>Papers, reports and videos of talks members recommend.</p></a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTRIBUTE -->
+<section class="cta-band cta-yellow">
+  <div class="inner">
+    <div>
+      <p class="eyebrow">Get Involved</p>
+      <h2>Write It Up.<br>Share It Here.</h2>
+      <p>Every page on this site is written by club members. The contributor guide shows you how to add a session write-up, a workflow or a piece of work, step by step. You don't need to have used GitHub before.</p>
+    </div>
+    <a class="btn btn-navy" href="{{ '/contribute/' | relative_url }}">Contributor guide</a>
+  </div>
+</section>

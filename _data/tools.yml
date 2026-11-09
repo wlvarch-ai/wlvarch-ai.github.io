@@ -1,0 +1,12 @@
+# Tools register.
+# One entry per tool. Every entry needs a reviewed date and a reviewer.
+# Remove the example block below when adding the first real entry.
+#
+# - name: Tool name
+#   url: https://example.com
+#   used_for: What we actually used it for
+#   cost: Free / free tier / paid (approx. £ per month)
+#   data_terms: Does it train on uploads? Who owns outputs? Link to terms if possible.
+#   verdict: One or two sentences, honest
+#   reviewed: 2026-10-27
+#   reviewer: First name or handle

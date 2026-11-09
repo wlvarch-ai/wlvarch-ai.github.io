@@ -1,0 +1,22 @@
+{% comment %}
+  Lists items newest first.
+  Parameters: items (e.g. site.posts), empty_text (text shown when there are none),
+  max_items (optional maximum number to show).
+{% endcomment %}
+{% assign items = include.items | sort: "date" | reverse %}
+{% if items.size == 0 %}
+<p class="empty">{{ include.empty_text }}</p>
+{% else %}
+<ol class="post-list">
+  {% for p in items %}
+  {% if include.max_items and include.max_items > 0 and forloop.index > include.max_items %}{% break %}{% endif %}
+  <li>
+    <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%-d %b %Y" }}</time>
+    <div>
+      <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+      {% if p.summary %}<p>{{ p.summary }}</p>{% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ol>
+{% endif %}

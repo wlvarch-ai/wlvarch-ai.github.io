@@ -1,0 +1,74 @@
+# WLVArch.AI site configuration
+# Changes to this file need a site rebuild (automatic on GitHub Pages).
+
+title: WLVArch.AI
+description: >-
+  The AI Club for WLVArchitecture students at the University of Wolverhampton:
+  exploring and sharing AI workflows, tools and methods, used responsibly
+  and ethically in architecture.
+
+# --- URL settings ---------------------------------------------------------
+# If the repo is named "wlvarch-ai.github.io" under the wlvarch-ai organisation,
+# leave baseurl empty. If the repo has any other name (e.g. "site"), set
+# baseurl to "/site".
+url: "https://wlvarch-ai.github.io"
+baseurl: ""
+
+# --- Club details (edit these) -------------------------------------------
+# Shown in the yellow bar on the homepage. Taken from the club poster.
+club:
+  meeting_day: "Alt. Thursdays"
+  meeting_time: "12:45pm"
+  duration: "30–45 mins"
+  meeting_room: "SPB208"
+  meeting_room_name: "Architectural Studios"
+  contact_email: ""           # optional; leave blank to hide
+
+# --- Build ----------------------------------------------------------------
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: /sessions/:year/:month/:day/:title/
+timezone: Europe/London
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  workflows:
+    output: true
+    permalink: /workflows/:name/
+  showcase:
+    output: true
+    permalink: /showcase/:name/
+
+defaults:
+  - scope: { path: "", type: "posts" }
+    values: { layout: "post" }
+  - scope: { path: "", type: "workflows" }
+    values: { layout: "post" }
+  - scope: { path: "", type: "showcase" }
+    values: { layout: "post" }
+  - scope: { path: "" }
+    values: { layout: "page" }
+
+# Main navigation, in order
+nav:
+  - { title: "Home",      url: "/" }
+  - { title: "Sessions",  url: "/sessions/" }
+  - { title: "Workflows", url: "/workflows/" }
+  - { title: "Showcase",  url: "/showcase/" }
+  - { title: "Tools",     url: "/tools/" }
+  - { title: "Ethics",    url: "/ethics/" }
+  - { title: "Research & Reading", url: "/reading/" }
+  - { title: "Contribute", url: "/contribute/", cta: true }
+
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - _templates
+  - vendor
+  - .github
