@@ -31,9 +31,9 @@ File names use lower case letters and hyphens only, with no spaces. A session po
 
 1. Open the repository on GitHub and go into the `_templates` folder.
 2. Open `session-post.md`, click the **Raw** button, and copy all the text.
-3. Go back to the repository's main page and open the `_posts` folder.
+3. Go back to the repository's main page.
 4. Click **Add file → Create new file**.
-5. Name the file, for example `2026-11-04-prompting-for-precedent-research.md`.
+5. In the name box, type `_posts/` followed by the file name, for example `_posts/2026-11-04-prompting-for-precedent-research.md`. When you type the `/`, GitHub turns `_posts` into a folder.
 6. Paste the template and fill in the fields between the `---` lines. Then write the post underneath.
 7. Click **Preview** to check it reads properly.
 8. Click **Commit changes…**. Choose **Create a new branch for this commit and start a pull request**, give it a short description, and confirm.
@@ -43,10 +43,13 @@ If you are not yet a member of the organisation, GitHub will offer to **fork** t
 
 ## Adding images
 
-1. In the repository, go to `assets/images/`.
-2. Click **Add file → Upload files**. Type the folder path into the file name box first (e.g. `2026/prompting-for-precedent-research/`) so the folder is created.
-3. Upload on the same branch as your post.
-4. In your post, reference the image like this:
+GitHub's upload page can't create folders by typing a name, but it keeps any folder you drag into it.
+
+1. On your computer, make a folder with the same short title as your post (e.g. `prompting-for-precedent-research`) and put your images in it.
+2. In the repository, go to `assets/images/` and open the folder for the current year (e.g. `2026`). If there isn't one yet, put your folder inside a folder named after the year before you drag it in.
+3. Click **Add file → Upload files** and drag **the folder** (not just the images) into the upload area. Use Chrome or Edge if possible, because some browsers drop folder contents.
+4. Upload on the same branch as your post.
+5. In your post, reference the image like this:
 
 {% raw %}
 ```markdown
