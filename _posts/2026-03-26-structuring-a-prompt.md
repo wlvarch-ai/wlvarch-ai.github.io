@@ -1,11 +1,11 @@
 ---
 title: "Structuring a prompt: role, context, task, output, constraints"
 date: 2026-03-26
-author: "David"
+author: "David Heesom"
 summary: "We looked at prompt engineering in practice, using labelled sections to turn a vague request into a clear brief."
 tags: [prompt-engineering, prompts, llm, bim]
 open_question: "How much structure is enough? At what point does a longer prompt stop improving the answer?"
-ai_disclosure: "Post drafted with Claude (Anthropic) from the author's session notes, and reviewed and edited by the author."
+ai_disclosure: "Post drafted with support from AI tools from the author's session notes, and reviewed and edited by the author."
 ---
 
 ## Discussed
