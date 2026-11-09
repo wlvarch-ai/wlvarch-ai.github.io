@@ -36,4 +36,17 @@ Add an entry only if you have read the source. Give the full reference, a link, 
 
 ## Talks and video
 
-<p class="empty">Nothing added yet.</p>
+## Video playlist: AI for architectural images
+
+Davids curated playlist of videos on using AI to create and edit architectural images, updated as new tools and techniques appear so keep checking in.
+
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLViaF-HF0uvmWBRQOJSRDPEn5f-Dm5vuP"
+          title="YouTube playlist: AI for architectural images"
+          loading="lazy"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+</div>
+
+[Open the playlist on YouTube](https://www.youtube.com/playlist?list=PLViaF-HF0uvmWBRQOJSRDPEn5f-Dm5vuP)
