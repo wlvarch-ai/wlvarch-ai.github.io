@@ -38,10 +38,10 @@ Add an entry only if you have read the source. Give the full reference, a link, 
 
 ## Video playlist: AI for architectural images
 
-Davids curated playlist of videos on using AI to create and edit architectural images, updated as new tools and techniques appear so keep checking in.
+Davids curated playlist of videos on using AI to create and edit architectural images, updated as new tools and techniques appear so keep checking in. If the video playlist doesn't load below just click on this link [Open the playlist on YouTube](https://www.youtube.com/playlist?list=PLViaF-HF0uvmWBRQOJSRDPEn5f-Dm5vuP)
 
 <div class="video-embed">
-  <iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLViaF-HF0uvmWBRQOJSRDPEn5f-Dm5vuP"
+  <iframe src="https://www.youtube.com/embed/videoseries?list=PLViaF-HF0uvmWBRQOJSRDPEn5f-Dm5vuP"
           title="YouTube playlist: AI for architectural images"
           loading="lazy"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -49,4 +49,4 @@ Davids curated playlist of videos on using AI to create and edit architectural i
           allowfullscreen></iframe>
 </div>
 
-[Open the playlist on YouTube](https://www.youtube.com/playlist?list=PLViaF-HF0uvmWBRQOJSRDPEn5f-Dm5vuP)
+
