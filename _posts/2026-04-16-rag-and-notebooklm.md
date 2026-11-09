@@ -1,14 +1,14 @@
 ---
 title: "RAG in practice: grounding AI in your own sources with NotebookLM"
 date: 2026-04-16
-author: "David"
+author: "David Heesom and Nigel Moore"
 summary: "We unpacked retrieval-augmented generation (RAG), why it reduces hallucination, and how NotebookLM puts it to work on your own module material."
 tags: [rag, hallucination, notebooklm, study-tools]
 open_question: "If a tool only answers from the sources we give it, how do we judge whether our sources are good enough?"
-ai_disclosure: "Post drafted with Claude (Anthropic) from the author's session notes, and reviewed and edited by the author."
+ai_disclosure: "Post drafted with support from AI tools from the author's session notes, and reviewed and edited by the author."
 ---
 
-*Update: in July 2026 Google renamed NotebookLM to Gemini Notebook. It is the same product, and existing notebooks and links still work. This post uses the name it had at the time of the session.*
+* July Update: in July 2026 Google renamed NotebookLM to Gemini Notebook. It is the same product, and existing notebooks and links still work. This post uses the name it had at the time of the session.*
 
 ## Discussed
 
