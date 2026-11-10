@@ -1,7 +1,7 @@
 ---
 title: "From sketch and card model to material preview"
-date: 2026-11-10
-author: "AUTHOR NAME OR HANDLE"
+date: 2026-03-01
+author: David Heesom and Harrison Edis
 summary: "Using iterative image prompting to test timber, glazing, planting and Victorian brick on a laser-cut model of a glazed infill gallery, without leaving the model's geometry behind."
 tags: [showcase, concept design, physical model, image generation, materiality]
 ai_disclosure: "The concept sketch and the physical model are the author's own, made by hand and by laser cutter. The material palette image and the three model renders were produced with Google Gemini image generation from text prompts and photographs of the model. No CAD or Photoshop work was done on the outputs."
@@ -68,5 +68,3 @@ The final image turns the brown card and loose acrylic of the model into a credi
 - In the final image the brick texture has been applied to the roof planes as well as the walls. A Victorian roof would be slate or clay tile, so the render is wrong on a point a reader might take as a design decision.
 - The scale figures inside the gallery are rendered as flat white silhouettes, unlike the figures outside. They read as model figures rather than people, which undercuts the "lived-in" aim.
 - The renders are regenerated images, not overlays. Every pixel, including the background and the parts of the model the prompts did not mention, has been redrawn, so each output needs checking against the original photograph before it is trusted.
-
-**Would I use it in a studio submission?** As concept-stage exploration, clearly labelled as AI-generated and shown alongside the sketch and model it came from, yes. It is not a substitute for a developed material strategy or a rendered view from the model itself, and the errors above show why the source material has to sit next to it.
