@@ -8,13 +8,14 @@ lead: Uni regulations, PSRB info and information on integrity, authorship and IP
 
 ## University guidance
 
-Link to the University of Wolverhampton's current guidance on generative AI in assessment, and summarise it in plain English for students.
+The University of Wolverhampton is currently developing comprehensive guidance on generative AI in assessment, and this will be released and communicated in due course.
 
 <!-- Add the link and summary here once confirmed. -->
 
 ## Academic integrity
 
 When AI use is permitted in a module, what acceptable disclosure looks like. Where it isn't permitted, what that means in practice for design work.
+The University is currently developing a full AI Policy and this will include details on how, when and where AI can be used. The current Academic Integrity Policy can be found on the University website here https://www.wlv.ac.uk/about-us/corporate-information/wlv-policies/academic-policies/
 
 ## Authorship and intellectual property
 
