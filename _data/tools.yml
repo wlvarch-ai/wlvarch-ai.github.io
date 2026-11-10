@@ -10,3 +10,11 @@
 #   verdict: One or two sentences, honest
 #   reviewed: 2026-10-27
 #   reviewer: First name or handle
+- name: D5 Render
+  url: https://www.d5render.com/educational-license
+  used_for: "Real-time rendering of Revit and Rhino models via LiveSync, using the AI tools for material creation from site photos (Material Snap), relighting (Atmosphere Match) and sketch or watercolour styles (Style Transfer)."
+  cost: "Free educational licence for full-time students and staff: 180 days, renewable, locked to one PC, educational use only. Windows only, needs a ray-tracing GPU."
+  data_terms: "You own your content and AI outputs. D5 says it will not train on your content without written consent, but AI features can capture your scene and inputs may be used to improve those features. [Terms](https://www.d5render.com/legal-terms/d5-render-terms-of-service)"
+  verdict: "Quick route from a BIM model to presentation images, and the AI tools save real time. Check that AI styles have not altered your design, and apply from the PC you will actually use."
+  reviewed: 2026-08-08
+  reviewer: David Heesom
