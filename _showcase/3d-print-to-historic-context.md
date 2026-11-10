@@ -1,7 +1,7 @@
 ---
 title: "From 3D print to historical context"
-date: 2026-11-10
-author: "AUTHOR NAME OR HANDLE"
+date: 2026-04-01
+author: "David Heesom and Samantha Elliott"
 summary: "Using a single-colour 3D print on a hand-drawn site sketch as the base for staged image prompts that test Victorian materials, a matching annex and period street life."
 tags: [showcase, concept design, 3D printing, physical model, image generation, heritage]
 ai_disclosure: "The 3D print and the site sketch are the author's own. The three renders were produced with Google Gemini image generation from a photograph of the print and text prompts. No CAD, texturing or Photoshop work was done on the outputs."
@@ -64,5 +64,3 @@ The final image reads as a period scene: the school in brick and slate, a cobble
 - **The site design was paved over.** In the final image the cobbles and lawn sit over the sketch, hiding the seating, pedestrian routes and SuDS zone the drawing set out. The scene shows the building's past, not the site proposal.
 - **The figures are not what was described.** The brief asked for a headmaster, teachers and pupils. The figures generated are all adults, and the vehicles are a carriage and carts rather than delivery barrows.
 - **The background was redrawn too.** The people at the desks behind have been regenerated along with everything else. Check that anyone recognisable in the original photograph is happy to appear before it is published.
-
-**Would I use it in a studio submission?** As an atmospheric study of the building's history, shown next to the print and the sketch and labelled as AI-generated, yes. It is not evidence of the proposal: it changes detail the author did not design and hides the site strategy the sketch was drawn to show.
