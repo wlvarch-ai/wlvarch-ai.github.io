@@ -1,7 +1,7 @@
 ---
 title: "From 3D print to historical context"
 date: 2026-04-01
-author: "David Heesom and Samantha Elliott"
+author: "David Heesom (AI) and Samantha Elliott (Model)"
 summary: "Using a single-colour 3D print on a hand-drawn site sketch as the base for staged image prompts that test Victorian materials, a matching annex and period street life."
 tags: [showcase, concept design, 3D printing, physical model, image generation, heritage]
 ai_disclosure: "The 3D print and the site sketch are the author's own. The three renders were produced with Google Gemini image generation from a photograph of the print and text prompts. No CAD, texturing or Photoshop work was done on the outputs."
