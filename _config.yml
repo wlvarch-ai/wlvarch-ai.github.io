@@ -19,7 +19,7 @@ baseurl: ""
 club:
   meeting_day: "Alt. Thursdays"
   meeting_time: "1pm"
-  duration: "30–45 mins"
+  duration: "30ish mins"
   meeting_room: "SPB208"
   meeting_room_name: "Architectural Studios"
   contact_email: ""           # optional; leave blank to hide
