@@ -18,7 +18,7 @@ baseurl: ""
 # Shown in the yellow bar on the homepage. Taken from the club poster.
 club:
   meeting_day: "Alt. Thursdays"
-  meeting_time: "12:45pm"
+  meeting_time: "1pm"
   duration: "30–45 mins"
   meeting_room: "SPB208"
   meeting_room_name: "Architectural Studios"
